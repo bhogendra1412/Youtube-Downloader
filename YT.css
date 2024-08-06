@@ -1,0 +1,102 @@
+#logotitle{
+    display:inline; 
+    position:relative;
+    bottom: 100px;
+    margin: 0px;
+    font-size: 2.5rem;
+}
+#logo{
+    height:150px;
+    width:150px;
+    display: inline;
+    position:relative;
+    right:30px;
+    bottom:30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#lang{
+    position:relative;
+    top:25px;
+    right:15px;
+}
+#video{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    font-size: 3rem;
+}
+header{
+    background-color: #021526;
+    color:#F8EDED;
+    padding-bottom: 100px;
+    font-family:monospace;
+}
+input{
+    height:50px;
+    width:30rem;
+    border-radius: 10px;
+}
+button{
+    height:50px;
+    width:105px;
+    border-radius: 10px;
+    background-color:#B43F3F;
+}
+select{
+    background-color: #021526;
+    color:white;
+    border:none
+}
+body{
+    margin:0;
+}
+#desc{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color:gray;
+    flex-wrap: wrap;
+}
+#stepshead{
+    margin-top:50px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #021526
+}
+.imageContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.steps{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 700;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #021526;
+    height:150px;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}
