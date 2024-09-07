@@ -98,3 +98,6 @@ footer a{
 footer a:hover{
     cursor: pointer;
 }
+.down:hover{
+    cursor: pointer;
+}
